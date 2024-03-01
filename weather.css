@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(245, 224, 198);
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(121, 27, 99);
+}
+
+a {    
+    font-size: x-large;
+    margin-left: 17vw;
+    color: burlywood;
+}
+
+#convertedCelsius{
+    margin-top: 4vw;
+    margin-left: 2vw;
+    font-size: large;
+    
+}
+
+#currentDate{
+    
+    color: aliceblue;
+    background-color: rgb(19, 19, 85);
+    padding: 0.5vw;
+    width: fit-content;
+    position: relative;
+   top: 34vw;
+   left: 60vw;
+   
+    
+}
+
+button{
+    background-color: rgb(121, 27, 99);
+    color: rgb(224, 175, 112);
+   
+}

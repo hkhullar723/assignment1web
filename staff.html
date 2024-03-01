@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="staff.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html">Profile Page</a>
+        <a href="grade.html"> Grade converter</a>
+        <a href="weather.html">Weather</a>
+    </div> 
+
+    <div>
+        <ul class="button "> <button onclick="sortByEmployee('PersonSalary')" class="salary">Sort by Salary</button>
+            <button onclick="sortByEmployee('PersonName')" class="name">Sort by Name</button>
+            
+        </ul>
+        <ul id="staff-list"></ul>
+        
+    </div>
+
+    <div id="currentDate"></div>
+    
+    <script src="staff.js"></script>
+</body>
+</html>
